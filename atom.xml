@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Stay Hungrey Stay Foolish</title>
+  <subtitle>Writing 1000 Words a Day Changes My Life</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://caoningbo.com/"/>
+  <updated>2016-08-01T21:13:50.000Z</updated>
+  <id>http://caoningbo.com/</id>
+  
+  <author>
+    <name>草草和媛媛</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搭建属于自己的的博客</title>
+    <link href="http://caoningbo.com/2016/08/01/hello-world/"/>
+    <id>http://caoningbo.com/2016/08/01/hello-world/</id>
+    <published>2016-08-01T20:22:39.000Z</published>
+    <updated>2016-08-01T21:13:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>纸上来的终觉浅，绝知此事要躬行-记搭建个人博客<br><a id="more"></a></p>
+<h1 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h1><p>为什么要费力的搭建自己的博客?</p>
+<ol>
+<li>工科男爱瞎折腾的毛病；</li>
+<li>讨厌博客平台花里胡哨的主题；</li>
+<li>能有一个自己独立的空间，系统的归纳纪录知识；</li>
+<li>好吧我承认我就是想装装B.</li>
+</ol>
+<h1 id="纸上来的终觉浅，绝知此事要躬行"><a href="#纸上来的终觉浅，绝知此事要躬行" class="headerlink" title="纸上来的终觉浅，绝知此事要躬行"></a>纸上来的终觉浅，绝知此事要躬行</h1><p>好了动机有了，下面说说怎么搭建博客<br>首先讲一下我的是mac ios系统。怎么搭建博客的细节我就不在赘述了，已经有很多前辈有过详细的教程和搭建步骤。反正我的博客是写给自己看的，所以本着总结的出发点，我大致罗列的主要的步骤和我遇到的问题和自己的一点感想</p>
+<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><blockquote>
+<p>首先你要购买一个域名，推荐狗爹（godaddy）有各种类型的域名可以选择，根据个人需要了，我购买的是三年的.com大概200RMB,因为当时是用欧元结算的，大概也就这个数。</p>
+</blockquote>
+<h2 id="注册Github"><a href="#注册Github" class="headerlink" title="注册Github"></a>注册Github</h2><blockquote>
+<p>为什么要注册Github呢？因为你需要在网络上有一个空间存储你的博客资料，而Github能够为你免费提供300Mb的空间就博客而言目前够用了。</p>
+</blockquote>
+<h2 id="下载安装HEXO"><a href="#下载安装HEXO" class="headerlink" title="下载安装HEXO"></a>下载安装HEXO</h2><blockquote>
+<p>HEXO是一款基于Node.js的静态博客框架。</p>
+</blockquote>
+<h1 id="初始化设置"><a href="#初始化设置" class="headerlink" title="初始化设置"></a>初始化设置</h1><p>在完成上面三步后，你会得到在你所在目录下的博客文件：</p>
+<blockquote>
+<p>├── _config.yml<br>├── db.json<br>├── node_modules<br>├── package.json<br>├── public<br>├── scaffolds<br>├── source<br>└── themes </p>
+</blockquote>
+<h1 id="常见命令"><a href="#常见命令" class="headerlink" title="常见命令"></a>常见命令</h1><p>sudo npm install hexo-deployer-git –save<br>加sudo是是以管理员身份运行命令</p>
+<p>hexo g<br>生成部署文件</p>
+<p>hexo s<br>生成部署文件</p>
+<p>hexo d<br>部署到Github上</p>
+<h1 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h1><p>＃完成以上的三步</p>
+<p>＃行百里者半九十</p>
+<p>／users/caoningbo/blog<br>cd blog</p>
+<!-- more -->
+<h3 id="运行hexo"><a href="#运行hexo" class="headerlink" title="运行hexo"></a>运行hexo</h3><h3 id="更新文件"><a href="#更新文件" class="headerlink" title="更新文件"></a>更新文件</h3><p>hexo g<br>hexo s<br>hexo d</p>
+<p>##问题</p>
+<p>###无法识别hexo<br>在npm install hexo-deployer-git –save命令前加sudo</p>
+<p>###无法部署到github<br>1.检查ssh key<br>2.检查配置文件</p>
+<p>ssh -T git@github.com<br>caoningbo$ git config –global user.name”ningbocao”<br>caoningbo$ git config –global user.email “ningbo.cao@buaa.edu.cn”</p>
+<p>deploy:<br>    type: git<br>    repository: <a href="http://github.com/ningbocao/ningbocao.github.io.git" target="_blank" rel="external">http://github.com/ningbocao/ningbocao.github.io.git</a><br>    branch: master</p>
+<pre><code>##如何选择新的主题
+首先
+$ hexo clean
+</code></pre><p>  $ hexo g<br>   $ hexo s<br>   进入themes文件夹<br>   然后复制主题<br>   git clone <a href="https://github.com/cnfeat/cnfeat.git" target="_blank" rel="external">https://github.com/cnfeat/cnfeat.git</a> themes/jacman</p>
+<p>   修改Hexo目录下的config.yml配置文件中的theme属性，将其设置为jacman<br>   theme: jacman</p>
+<p>   然后进入主题文件夹，发布主题<br>   $ cd themes/jacman<br>$ git pull</p>
+<p>最后hexo g<br>hexo s<br>hexo d</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;纸上来的终觉浅，绝知此事要躬行-记搭建个人博客&lt;br&gt;
+    
+    </summary>
+    
+      <category term="生活" scheme="http://caoningbo.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="hexo" scheme="http://caoningbo.com/tags/hexo/"/>
+    
+      <category term="博客" scheme="http://caoningbo.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cao</title>
+    <link href="http://caoningbo.com/2016/08/01/%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4/"/>
+    <id>http://caoningbo.com/2016/08/01/终端命令/</id>
+    <published>2016-08-01T20:22:39.000Z</published>
+    <updated>2016-08-01T20:26:13.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="mac" scheme="http://caoningbo.com/categories/mac/"/>
+    
+    
+      <category term="mac" scheme="http://caoningbo.com/tags/mac/"/>
+    
+      <category term="终端" scheme="http://caoningbo.com/tags/%E7%BB%88%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>留法岁月</title>
+    <link href="http://caoningbo.com/2016/07/27/haha/"/>
+    <id>http://caoningbo.com/2016/07/27/haha/</id>
+    <published>2016-07-27T08:53:33.000Z</published>
+    <updated>2016-07-30T16:41:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>－－写于Boulogne<br>已经是第四次来到Boulogne的préfecture续我的居留了，前几次的糟糕体验和积累的经验已经让我对法国政府的办事风格有了一定的接受能力。漫长的等待，极慢的办事效率，在无聊的等待当中我不禁<br>实话说这里并不是像他们宣扬的那”自由、平等、博爱”。<br><a id="more"></a><br>虽然大部分的法国人在生活中都很友善，但是他们骨子里永远是那副放不下的骄傲感。</p>
+<p>在法国公司SEGULA实习的六个月</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;－－写于Boulogne&lt;br&gt;已经是第四次来到Boulogne的préfecture续我的居留了，前几次的糟糕体验和积累的经验已经让我对法国政府的办事风格有了一定的接受能力。漫长的等待，极慢的办事效率，在无聊的等待当中我不禁&lt;br&gt;实话说这里并不是像他们宣扬的那”自由、平等、博爱”。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="生活" scheme="http://caoningbo.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="spark" scheme="http://caoningbo.com/tags/spark/"/>
+    
+      <category term="sparkSQL" scheme="http://caoningbo.com/tags/sparkSQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>freedom</title>
+    <link href="http://caoningbo.com/2016/07/04/freedom/"/>
+    <id>http://caoningbo.com/2016/07/04/freedom/</id>
+    <published>2016-07-04T21:10:53.000Z</published>
+    <updated>2016-07-30T16:34:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>国家宝藏观后感：</p>
+<p>主演：尼古拉斯凯奇<br>看完这部电影，首先被主人公渊博的学识所征服，其次被他强烈的爱国主义使命感所感染。<br><a id="more"></a><br>在维护个人荣誉和国家财富的过程中，与寻宝者斗智斗勇。<br>他与寻宝者最大的不同在于，他的目的，他寻找宝藏的目的在于发掘一段尘封的历史，向公众真实而生动的展现<br>那个时期的历史。<br>唯有具有伟大目标和崇高理想的灵魂才能改变世界。<br>除了男主人公金子般高贵人格，同样令人称道的是他的助手，无论何时何地，总是义无反顾的支持他相信他，<br>想我想到了福尔摩斯对华生的评价－－可能某些人不具备令人惊艳的天赋，但是他却能激发具有天赋之人。<br>出了友情，主人公还通过自己的才学和人格魅力吸引了我们的女主。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;国家宝藏观后感：&lt;/p&gt;
+&lt;p&gt;主演：尼古拉斯凯奇&lt;br&gt;看完这部电影，首先被主人公渊博的学识所征服，其次被他强烈的爱国主义使命感所感染。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="电影" scheme="http://caoningbo.com/categories/%E7%94%B5%E5%BD%B1/"/>
+    
+    
+      <category term="spark" scheme="http://caoningbo.com/tags/spark/"/>
+    
+      <category term="sparkSQL" scheme="http://caoningbo.com/tags/sparkSQL/"/>
+    
+  </entry>
+  
+</feed>
