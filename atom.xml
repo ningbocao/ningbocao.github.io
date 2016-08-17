@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://caoningbo.com/"/>
-  <updated>2016-08-03T21:14:17.000Z</updated>
+  <updated>2016-08-17T08:30:02.000Z</updated>
   <id>http://caoningbo.com/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>“巴塞罗那”</title>
+    <link href="http://caoningbo.com/2016/08/17/%E2%80%9C%E5%B7%B4%E5%A1%9E%E7%BD%97%E9%82%A3%E2%80%9D/"/>
+    <id>http://caoningbo.com/2016/08/17/“巴塞罗那”/</id>
+    <published>2016-08-17T07:59:24.000Z</published>
+    <updated>2016-08-17T08:30:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>炎炎夏日寻找一个海边的城市，享受一下阳光，远眺一下大海再也没有比这更让人迷恋的了。于是趁着回国前还有一段时间，我和妹子选择西班牙海边城市巴塞罗那来度过我们的假期。</p>
+<a id="more"></a>
+<h1 id="行程"><a href="#行程" class="headerlink" title="行程"></a>行程</h1><h2 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h2><p>我们是15号的下午2:35从巴黎CDG机场出发，下午4点多的样子到达此行目的地巴塞罗那。说不上特别热。<br>从机场可以乘坐大巴和地铁到达市区，因为大巴的停靠站离我们的酒店还有一段距离，所以我们选择的地铁。<br>票价4.5欧。因为我们到达的日期刚好是 Assumption Day 大部分的商店都不开门营业，好在我们找到一家中国面馆，说实话除了妹子点的面味道一般以为价格真心比巴黎便宜好多，点了一个干锅鸡、椒盐排骨盒、一碗牛肉面和一份炒饭，外加喝的才22欧。抱着饭后散步的目的，我们沿着主干道，穿过凯旋门和城堡公园，来到了西班牙的沙滩。感觉没有尼斯的海妹，沙子的质量也一般，但是还是挡不住我们冲向大海的热情，和妹子相约好第二天带好装备来海滩边晒上一波。</p>
+<h2 id="第二天"><a href="#第二天" class="headerlink" title="第二天"></a>第二天</h2><p>说实话真心不建议住在扩展区，感觉这边好没有活力的样子。当时选择这边的原因是网上说这边比较安全，还有在 Booking 按照我们的目标价格的酒店大多位于这个区。街道还算干净，就是不知为什么周围一堆中国人和小三的</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;炎炎夏日寻找一个海边的城市，享受一下阳光，远眺一下大海再也没有比这更让人迷恋的了。于是趁着回国前还有一段时间，我和妹子选择西班牙海边城市巴塞罗那来度过我们的假期。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="旅行" scheme="http://caoningbo.com/categories/%E6%97%85%E8%A1%8C/"/>
+    
+    
+      <category term="旅行" scheme="http://caoningbo.com/tags/%E6%97%85%E8%A1%8C/"/>
+    
+      <category term="西班牙" scheme="http://caoningbo.com/tags/%E8%A5%BF%E7%8F%AD%E7%89%99/"/>
+    
+  </entry>
   
   <entry>
     <title>Javasript</title>
@@ -48,9 +76,10 @@
     <link href="http://caoningbo.com/2016/08/02/%E6%97%A5%E8%AE%B0%E6%B5%81%E6%B0%B4/"/>
     <id>http://caoningbo.com/2016/08/02/日记流水/</id>
     <published>2016-08-02T21:01:21.000Z</published>
-    <updated>2016-08-03T21:12:28.000Z</updated>
+    <updated>2016-08-04T21:08:26.000Z</updated>
     
     <content type="html"><![CDATA[<p>因为刚开始搭建自己的个人博客，觉得有好多可以写的，但是又不知怎么组织语言。<br>因此想了一个曲线救国的办法，既然不知道从何写起，那就把平时的思考都写下来，那么有了一定的<br>素材，在对素材进行整理和拓展，那就会产生一些有趣的博客。<br><a id="more"></a><br>2016-08-03<br>由于朋友的关系，开始有了搭建自己个人博客的想法。因此在磕磕绊绊中了解其中的一些东西。<br>怎么说呢？博客一般网页一样是把信息以网页的形式呈现给别人去看，以前叫做网页设计，现在呢<br>由于进一步的分工，叫前端，与之对应的是后端，说的是服务器端。<br>主要涉及的知识三大块：css，javascript,和hmtl.</p>
+<p>经济学人：</p>
 ]]></content>
     
     <summary type="html">
