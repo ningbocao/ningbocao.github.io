@@ -163,8 +163,8 @@ $ hexo clean
   
   <entry>
     <title>搭建属于自己的的博客</title>
-    <link href="http://caoningbo.com/2016/08/01/CFA%E5%A4%87%E8%80%83%E6%97%A5%E8%AE%B0/"/>
-    <id>http://caoningbo.com/2016/08/01/CFA备考日记/</id>
+    <link href="http://caoningbo.com/2016/08/01/hello-world/"/>
+    <id>http://caoningbo.com/2016/08/01/hello-world/</id>
     <published>2016-08-01T14:22:39.000Z</published>
     <updated>2016-08-01T21:13:50.000Z</updated>
     
@@ -230,8 +230,8 @@ $ hexo clean
   
   <entry>
     <title>搭建属于自己的的博客</title>
-    <link href="http://caoningbo.com/2016/08/01/hello-world/"/>
-    <id>http://caoningbo.com/2016/08/01/hello-world/</id>
+    <link href="http://caoningbo.com/2016/08/01/CFA%E5%A4%87%E8%80%83%E6%97%A5%E8%AE%B0/"/>
+    <id>http://caoningbo.com/2016/08/01/CFA备考日记/</id>
     <published>2016-08-01T14:22:39.000Z</published>
     <updated>2016-08-01T21:13:50.000Z</updated>
     
