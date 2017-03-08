@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://caoningbo.com/"/>
-  <updated>2016-09-17T14:11:04.000Z</updated>
+  <updated>2017-03-08T09:02:20.000Z</updated>
   <id>http://caoningbo.com/</id>
   
   <author>
@@ -14,6 +14,73 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>研究生总结</title>
+    <link href="http://caoningbo.com/2017/03/08/%E7%A0%94%E7%A9%B6%E7%94%9F%E6%80%BB%E7%BB%93/"/>
+    <id>http://caoningbo.com/2017/03/08/研究生总结/</id>
+    <published>2017-03-08T09:02:20.000Z</published>
+    <updated>2017-03-08T09:02:20.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我和媛媛的故事</title>
+    <link href="http://caoningbo.com/2016/10/24/%E7%BB%93%E5%A9%9A%E9%A2%86%E8%AF%81/"/>
+    <id>http://caoningbo.com/2016/10/24/结婚领证/</id>
+    <published>2016-10-24T14:22:39.000Z</published>
+    <updated>2016-10-26T14:59:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在2016年的10月24日我和媛媛终于成功领证了，我在远离一家吃饱全家不饿的单身时光的同时，完美过渡成为了一个老公。由于媛媛已经怀上了宝宝，而我要在北京倒刺我的毕业和工作我们暂时的分居两地。写下这篇博文就是在这个具有纪念的日子里回忆我和媛媛相识相爱走过的路。<br><a id="more"></a></p>
+<h1 id="初识"><a href="#初识" class="headerlink" title="初识"></a>初识</h1><h1 id="相见"><a href="#相见" class="headerlink" title="相见"></a>相见</h1><h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><blockquote>
+<p>首先你要购买一个域名，推荐狗爹（godaddy）有各种类型的域名可以选择，根据个人需要了，我购买的是三年的.com大概200RMB,因为当时是用欧元结算的，大概也就这个数。</p>
+</blockquote>
+<h1 id="相爱"><a href="#相爱" class="headerlink" title="相爱"></a>相爱</h1><p>在完成上面三步后，你会得到在你所在目录下的博客文件：</p>
+<blockquote>
+<p>├── _config.yml<br>├── db.json<br>├── node_modules<br>├── package.json<br>├── public<br>├── scaffolds<br>├── source<br>└── themes </p>
+</blockquote>
+<h1 id="同居"><a href="#同居" class="headerlink" title="同居"></a>同居</h1><p>sudo npm install hexo-deployer-git –save<br>加sudo是是以管理员身份运行命令</p>
+<p>hexo g<br>生成部署文件</p>
+<p>hexo s<br>生成部署文件</p>
+<p>hexo d<br>部署到Github上</p>
+<h1 id="结婚"><a href="#结婚" class="headerlink" title="结婚"></a>结婚</h1><h1 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h1><p>＃完成以上的三步</p>
+<p>＃行百里者半九十</p>
+<p>／users/caoningbo/blog<br>cd blog</p>
+<!-- more -->
+<h3 id="运行hexo"><a href="#运行hexo" class="headerlink" title="运行hexo"></a>运行hexo</h3><h3 id="更新文件"><a href="#更新文件" class="headerlink" title="更新文件"></a>更新文件</h3><p>hexo g<br>hexo s<br>hexo d</p>
+<p>##问题</p>
+<p>###无法识别hexo<br>在npm install hexo-deployer-git –save命令前加sudo</p>
+<p>###无法部署到github<br>1.检查ssh key<br>2.检查配置文件</p>
+<p>ssh -T git@github.com<br>caoningbo$ git config –global user.name”ningbocao”<br>caoningbo$ git config –global user.email “ningbo.cao@buaa.edu.cn”</p>
+<p>deploy:<br>    type: git<br>    repository: <a href="http://github.com/ningbocao/ningbocao.github.io.git" target="_blank" rel="external">http://github.com/ningbocao/ningbocao.github.io.git</a><br>    branch: master</p>
+<pre><code>##如何选择新的主题
+首先
+$ hexo clean
+</code></pre><p>  $ hexo g<br>   $ hexo s<br>   进入themes文件夹<br>   然后复制主题<br>   git clone <a href="https://github.com/cnfeat/cnfeat.git" target="_blank" rel="external">https://github.com/cnfeat/cnfeat.git</a> themes/jacman</p>
+<p>   修改Hexo目录下的config.yml配置文件中的theme属性，将其设置为jacman<br>   theme: jacman</p>
+<p>   然后进入主题文件夹，发布主题<br>   $ cd themes/jacman<br>$ git pull</p>
+<p>最后hexo g<br>hexo s<br>hexo d</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在2016年的10月24日我和媛媛终于成功领证了，我在远离一家吃饱全家不饿的单身时光的同时，完美过渡成为了一个老公。由于媛媛已经怀上了宝宝，而我要在北京倒刺我的毕业和工作我们暂时的分居两地。写下这篇博文就是在这个具有纪念的日子里回忆我和媛媛相识相爱走过的路。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="生活" scheme="http://caoningbo.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="纪念日" scheme="http://caoningbo.com/tags/%E7%BA%AA%E5%BF%B5%E6%97%A5/"/>
+    
+      <category term="家庭" scheme="http://caoningbo.com/tags/%E5%AE%B6%E5%BA%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>西班牙－Hola（一）!</title>
@@ -96,8 +163,142 @@
   
   <entry>
     <title>搭建属于自己的的博客</title>
+    <link href="http://caoningbo.com/2016/08/01/CFA%E5%A4%87%E8%80%83%E6%97%A5%E8%AE%B0/"/>
+    <id>http://caoningbo.com/2016/08/01/CFA备考日记/</id>
+    <published>2016-08-01T14:22:39.000Z</published>
+    <updated>2016-08-01T21:13:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>纸上来的终觉浅，绝知此事要躬行-记搭建个人博客<br><a id="more"></a></p>
+<h1 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h1><p>为什么要费力的搭建自己的博客?</p>
+<ol>
+<li>工科男爱瞎折腾的毛病；</li>
+<li>讨厌博客平台花里胡哨的主题；</li>
+<li>能有一个自己独立的空间，系统的归纳纪录知识；</li>
+<li>好吧我承认我就是想装装B.</li>
+</ol>
+<h1 id="纸上来的终觉浅，绝知此事要躬行"><a href="#纸上来的终觉浅，绝知此事要躬行" class="headerlink" title="纸上来的终觉浅，绝知此事要躬行"></a>纸上来的终觉浅，绝知此事要躬行</h1><p>好了动机有了，下面说说怎么搭建博客<br>首先讲一下我的是mac ios系统。怎么搭建博客的细节我就不在赘述了，已经有很多前辈有过详细的教程和搭建步骤。反正我的博客是写给自己看的，所以本着总结的出发点，我大致罗列的主要的步骤和我遇到的问题和自己的一点感想</p>
+<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><blockquote>
+<p>首先你要购买一个域名，推荐狗爹（godaddy）有各种类型的域名可以选择，根据个人需要了，我购买的是三年的.com大概200RMB,因为当时是用欧元结算的，大概也就这个数。</p>
+</blockquote>
+<h2 id="注册Github"><a href="#注册Github" class="headerlink" title="注册Github"></a>注册Github</h2><blockquote>
+<p>为什么要注册Github呢？因为你需要在网络上有一个空间存储你的博客资料，而Github能够为你免费提供300Mb的空间就博客而言目前够用了。</p>
+</blockquote>
+<h2 id="下载安装HEXO"><a href="#下载安装HEXO" class="headerlink" title="下载安装HEXO"></a>下载安装HEXO</h2><blockquote>
+<p>HEXO是一款基于Node.js的静态博客框架。</p>
+</blockquote>
+<h1 id="初始化设置"><a href="#初始化设置" class="headerlink" title="初始化设置"></a>初始化设置</h1><p>在完成上面三步后，你会得到在你所在目录下的博客文件：</p>
+<blockquote>
+<p>├── _config.yml<br>├── db.json<br>├── node_modules<br>├── package.json<br>├── public<br>├── scaffolds<br>├── source<br>└── themes </p>
+</blockquote>
+<h1 id="常见命令"><a href="#常见命令" class="headerlink" title="常见命令"></a>常见命令</h1><p>sudo npm install hexo-deployer-git –save<br>加sudo是是以管理员身份运行命令</p>
+<p>hexo g<br>生成部署文件</p>
+<p>hexo s<br>生成部署文件</p>
+<p>hexo d<br>部署到Github上</p>
+<h1 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h1><p>＃完成以上的三步</p>
+<p>＃行百里者半九十</p>
+<p>／users/caoningbo/blog<br>cd blog</p>
+<!-- more -->
+<h3 id="运行hexo"><a href="#运行hexo" class="headerlink" title="运行hexo"></a>运行hexo</h3><h3 id="更新文件"><a href="#更新文件" class="headerlink" title="更新文件"></a>更新文件</h3><p>hexo g<br>hexo s<br>hexo d</p>
+<p>##问题</p>
+<p>###无法识别hexo<br>在npm install hexo-deployer-git –save命令前加sudo</p>
+<p>###无法部署到github<br>1.检查ssh key<br>2.检查配置文件</p>
+<p>ssh -T git@github.com<br>caoningbo$ git config –global user.name”ningbocao”<br>caoningbo$ git config –global user.email “ningbo.cao@buaa.edu.cn”</p>
+<p>deploy:<br>    type: git<br>    repository: <a href="http://github.com/ningbocao/ningbocao.github.io.git" target="_blank" rel="external">http://github.com/ningbocao/ningbocao.github.io.git</a><br>    branch: master</p>
+<pre><code>##如何选择新的主题
+首先
+$ hexo clean
+</code></pre><p>  $ hexo g<br>   $ hexo s<br>   进入themes文件夹<br>   然后复制主题<br>   git clone <a href="https://github.com/cnfeat/cnfeat.git" target="_blank" rel="external">https://github.com/cnfeat/cnfeat.git</a> themes/jacman</p>
+<p>   修改Hexo目录下的config.yml配置文件中的theme属性，将其设置为jacman<br>   theme: jacman</p>
+<p>   然后进入主题文件夹，发布主题<br>   $ cd themes/jacman<br>$ git pull</p>
+<p>最后hexo g<br>hexo s<br>hexo d</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;纸上来的终觉浅，绝知此事要躬行-记搭建个人博客&lt;br&gt;
+    
+    </summary>
+    
+      <category term="生活" scheme="http://caoningbo.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="hexo" scheme="http://caoningbo.com/tags/hexo/"/>
+    
+      <category term="博客" scheme="http://caoningbo.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建属于自己的的博客</title>
     <link href="http://caoningbo.com/2016/08/01/hello-world/"/>
     <id>http://caoningbo.com/2016/08/01/hello-world/</id>
+    <published>2016-08-01T14:22:39.000Z</published>
+    <updated>2016-08-01T21:13:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>纸上来的终觉浅，绝知此事要躬行-记搭建个人博客<br><a id="more"></a></p>
+<h1 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h1><p>为什么要费力的搭建自己的博客?</p>
+<ol>
+<li>工科男爱瞎折腾的毛病；</li>
+<li>讨厌博客平台花里胡哨的主题；</li>
+<li>能有一个自己独立的空间，系统的归纳纪录知识；</li>
+<li>好吧我承认我就是想装装B.</li>
+</ol>
+<h1 id="纸上来的终觉浅，绝知此事要躬行"><a href="#纸上来的终觉浅，绝知此事要躬行" class="headerlink" title="纸上来的终觉浅，绝知此事要躬行"></a>纸上来的终觉浅，绝知此事要躬行</h1><p>好了动机有了，下面说说怎么搭建博客<br>首先讲一下我的是mac ios系统。怎么搭建博客的细节我就不在赘述了，已经有很多前辈有过详细的教程和搭建步骤。反正我的博客是写给自己看的，所以本着总结的出发点，我大致罗列的主要的步骤和我遇到的问题和自己的一点感想</p>
+<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><blockquote>
+<p>首先你要购买一个域名，推荐狗爹（godaddy）有各种类型的域名可以选择，根据个人需要了，我购买的是三年的.com大概200RMB,因为当时是用欧元结算的，大概也就这个数。</p>
+</blockquote>
+<h2 id="注册Github"><a href="#注册Github" class="headerlink" title="注册Github"></a>注册Github</h2><blockquote>
+<p>为什么要注册Github呢？因为你需要在网络上有一个空间存储你的博客资料，而Github能够为你免费提供300Mb的空间就博客而言目前够用了。</p>
+</blockquote>
+<h2 id="下载安装HEXO"><a href="#下载安装HEXO" class="headerlink" title="下载安装HEXO"></a>下载安装HEXO</h2><blockquote>
+<p>HEXO是一款基于Node.js的静态博客框架。</p>
+</blockquote>
+<h1 id="初始化设置"><a href="#初始化设置" class="headerlink" title="初始化设置"></a>初始化设置</h1><p>在完成上面三步后，你会得到在你所在目录下的博客文件：</p>
+<blockquote>
+<p>├── _config.yml<br>├── db.json<br>├── node_modules<br>├── package.json<br>├── public<br>├── scaffolds<br>├── source<br>└── themes </p>
+</blockquote>
+<h1 id="常见命令"><a href="#常见命令" class="headerlink" title="常见命令"></a>常见命令</h1><p>sudo npm install hexo-deployer-git –save<br>加sudo是是以管理员身份运行命令</p>
+<p>hexo g<br>生成部署文件</p>
+<p>hexo s<br>生成部署文件</p>
+<p>hexo d<br>部署到Github上</p>
+<h1 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h1><p>＃完成以上的三步</p>
+<p>＃行百里者半九十</p>
+<p>／users/caoningbo/blog<br>cd blog</p>
+<!-- more -->
+<h3 id="运行hexo"><a href="#运行hexo" class="headerlink" title="运行hexo"></a>运行hexo</h3><h3 id="更新文件"><a href="#更新文件" class="headerlink" title="更新文件"></a>更新文件</h3><p>hexo g<br>hexo s<br>hexo d</p>
+<p>##问题</p>
+<p>###无法识别hexo<br>在npm install hexo-deployer-git –save命令前加sudo</p>
+<p>###无法部署到github<br>1.检查ssh key<br>2.检查配置文件</p>
+<p>ssh -T git@github.com<br>caoningbo$ git config –global user.name”ningbocao”<br>caoningbo$ git config –global user.email “ningbo.cao@buaa.edu.cn”</p>
+<p>deploy:<br>    type: git<br>    repository: <a href="http://github.com/ningbocao/ningbocao.github.io.git" target="_blank" rel="external">http://github.com/ningbocao/ningbocao.github.io.git</a><br>    branch: master</p>
+<pre><code>##如何选择新的主题
+首先
+$ hexo clean
+</code></pre><p>  $ hexo g<br>   $ hexo s<br>   进入themes文件夹<br>   然后复制主题<br>   git clone <a href="https://github.com/cnfeat/cnfeat.git" target="_blank" rel="external">https://github.com/cnfeat/cnfeat.git</a> themes/jacman</p>
+<p>   修改Hexo目录下的config.yml配置文件中的theme属性，将其设置为jacman<br>   theme: jacman</p>
+<p>   然后进入主题文件夹，发布主题<br>   $ cd themes/jacman<br>$ git pull</p>
+<p>最后hexo g<br>hexo s<br>hexo d</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;纸上来的终觉浅，绝知此事要躬行-记搭建个人博客&lt;br&gt;
+    
+    </summary>
+    
+      <category term="生活" scheme="http://caoningbo.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="hexo" scheme="http://caoningbo.com/tags/hexo/"/>
+    
+      <category term="博客" scheme="http://caoningbo.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建属于自己的的博客</title>
+    <link href="http://caoningbo.com/2016/08/01/%E4%B8%AD%E5%9B%BD%E6%88%BF%E4%BB%B7%E9%82%A3%E4%BA%9B%E4%BA%8B/"/>
+    <id>http://caoningbo.com/2016/08/01/中国房价那些事/</id>
     <published>2016-08-01T14:22:39.000Z</published>
     <updated>2016-08-01T21:13:50.000Z</updated>
     
